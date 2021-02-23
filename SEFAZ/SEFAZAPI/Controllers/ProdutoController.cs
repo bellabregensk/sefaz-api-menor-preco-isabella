@@ -86,8 +86,7 @@ namespace SEFAZAPI.Controllers
         public IActionResult Index()
         {
             return Ok("A API \"Menor Preço\" - SEFAZ possui as seguintes rotas:\n" +
-                         "\nProduto - [v1/produto]: A função dessa rota é pesquisar o produto pelos parâmetros: código GTIN (COD_GTIN)," +
-                         " latitude (NUM_LATITUDE) e longitude (NUM_LONGITUDE), retornando a lista de produtos e a URL do Google Maps de cada estabelecimento.\n" +
+                         "\nProduto - [v1/produto]: A função dessa rota é pesquisar o produto pelos parâmetros: código GTIN (codigoGtin), retornando a lista de produtos e a URL do Google Maps de cada estabelecimento.\n" +
                          "\nImportar - [v1/importar]: A função dessa rota é importar a planilha .csv para o banco SQLite.\n" +
                          "\nEssa API foi desenvolvida por: Isabella Kuster Bregensk.");
 
