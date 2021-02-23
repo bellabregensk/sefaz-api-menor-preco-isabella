@@ -1,0 +1,1 @@
+sqlite3.exe C:/DB/SEFAZ.db < ImportarSql.sql
