@@ -13,7 +13,7 @@ namespace SEFAZDOMINIO
     {
         private static string CarregarConnectionString()
         {
-            return @"Data Source=C:\DB\SEFAZ.db;Version=3;";
+            return @"Data Source=..\..\DB\SEFAZ.db;Version=3;";
         }
         public List<Produto> ConsultarProdutos()
         {
