@@ -8,7 +8,6 @@ Foi criada uma API .NET Core 3.1 com conexão ao banco de dados SQLite.
 
 # Intruções para execução do projeto:
 
-- Copiar a pasta DB contida nesse repositório e colar em C:;
 - Abrir a Solution SEFAZ.sln no Visual Studio e executar o projeto definindo a SEFAZAPI como projeto de inicialização;
 - Executar as rotas:
     Produto: http://localhost:52167/v1/produto/
